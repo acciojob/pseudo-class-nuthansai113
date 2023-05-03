@@ -1,12 +1,12 @@
 /*  your css code here. If applicable */
-.para::before{
-	content: "Before Element ";
+div::before{
+	content:"Before Element";
     color: rgb(255, 0, 0);
 	display: inline;
 }
 
-.para::after{
-	content: "After Element ";
+div::after{
+	content:"After Element";
     color: rgb(255, 0, 0);
 	display: inline;
 }
