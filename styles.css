@@ -1,5 +1,12 @@
 /*  your css code here. If applicable */
-.para ::before{
-    content: "Before element ";
+.para::before{
+	content: "Before Element ";
     color: red;
+	display: inline;
+}
+
+.para::after{
+	content: "After Element ";
+    color: red;
+	display: inline;
 }
